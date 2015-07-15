@@ -13,3 +13,16 @@ else
 
 fi
 unset color_prompt force_color_prompt
+
+#git
+alias gs='git status'
+alias gp='git pull'
+alias gf='git fetch --all'
+
+# Directory navigation aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+
