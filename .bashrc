@@ -25,4 +25,8 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+#Mount
+alias mountvm='sudo sshfs -o allow_other -o  IdentityFile=~/.ssh/id_rsa root@mshivakumar.lan:/ /home/mayur.shivakumar/mount/vm/'
+
+
 
