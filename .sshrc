@@ -68,6 +68,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+#Go lang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
