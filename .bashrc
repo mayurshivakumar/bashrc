@@ -27,6 +27,7 @@ unset color_prompt force_color_prompt
 alias gs='git status'
 alias gp='git pull'
 alias gf='git fetch --all'
+alias gb='git branch'
 
 # Directory navigation aliases
 alias ..='cd ..'
