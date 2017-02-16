@@ -34,6 +34,27 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+alias po='cd /home/mayur/projects/portals'
+
+# VPN
+function vpn()
+{
+  cd /home/mayur/projects
+  echo
+  if [ "$1" == "v" ]; then
+   if [ ! -f /home/mayur/projects/NEO.Virginia.HA.VPN.ovpn ]; then
+    echo "NEO.Virginia.HA.VPN.ovpn file not found!"
+   else
+    sudo openvpn --config NEO.Virginia.HA.VPN.ovpn
+   fi
+  else
+    if [ ! -f /home/mayur/projects/NEO.Oregon.HA.VPN.ovpn ]; then
+    echo "NEO.Virginia.HA.VPN.ovpn file not found!"
+  else
+    sudo openvpn --config NEO.Oregon.HA.VPN.ovpn
+    fi
+  fi
+}
 
 #Go lang
 export GOPATH=$HOME/go
