@@ -28,6 +28,7 @@ alias gs='git status'
 alias gp='git pull'
 alias gf='git fetch --all'
 alias gb='git branch'
+alias gl='git log'
 
 # Directory navigation aliases
 alias ..='cd ..'
