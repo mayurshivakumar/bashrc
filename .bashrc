@@ -19,7 +19,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-alias src='cd /Users/cn188981/go/src'
 alias ll='ls -l'
 
 #Go lang
